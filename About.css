@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blue;
+  color: antiquewhite;
+  font-family: "poppins", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(23, 23, 61);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: blue;
+  font-size: 1.04rem;
+}
+main hr {
+  border: 0;
+  background-color: aqua;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 130px 0;
+  align-items: center;
+  width: 100%;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 3rem;
+}
+.leftSection .buttons {
+  padding: 50px 0;
+}
+.leftSection .btn {
+  padding: 12px;
+  background-color: rgb(37, 84, 84);
+  color: white;
+  border-radius: 6px;
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.leftSection img {
+  width: 90%;
+}
+.rightSection {
+  width: 50%;
+}
+.rightSection img {
+  margin: 3px;
+  width: 100%;
+}
+.rightSection h2 {
+  color: aqua;
+}
+.rightSection a {
+  color: aqua;
+}
+.purple {
+  color: aqua;
+}
+.text-gray {
+  color: gray;
+}
+#element {
+  color: aqua;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.5rem;
+}
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 150px;
+}
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+footer {
+  background-color: rgb(23, 23, 61);
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 223px;
+}
+footer .footer-rights {
+  text-align: center;
+  padding: 12px 0;
+}
+footer .footer .second ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer .second ul li a:hover {
+  color: blue;
+}
+@media screen and (max-width: 1410px) {
+  .firstSection {
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 32px 23px;
+  }
+  .firstSection > div {
+    width: 700px;
+    align-items: center;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .leftSection {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightSection h2,
+  h3,
+  p {
+    width: 721px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftSection img {
+    width: 45vw;
+    margin-bottom: 73px;
+    justify-content: center;
+    align-items: center;
+  }
+}
